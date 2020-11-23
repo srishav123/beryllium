@@ -50,3 +50,50 @@ body {
   background-color: #4caf50;
   color: white;
 }
+
+/* Top container CSS */
+.container-top{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  height: 90vh;
+  width: 100%;
+  /* background-image: url("https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); */
+  background-color: rgb(26, 26, 92);
+  text-align: center;
+  color: white;
+  padding: 1%;
+}
+
+.button-start-now{
+  background-color: red;
+  font-size: 150%;
+  border-radius: 10%;
+}
+
+.clients-list {
+  border-left: 1px solid rgba(255,255,255,.2);
+}
+
+.client > img{
+  height: 80px;
+  width: 120px;
+  border-left: 1px solid rgba(255,255,255,.2);
+  margin-left: 20px;
+}
+.client{
+  margin-top: 50px;
+  float: left;
+  margin-left: 100px;
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container-middle {
+  float: left;
+  width: 15%;
+  height: 200px;
+  border: 1px solid black;
+}
