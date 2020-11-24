@@ -11,22 +11,49 @@ body {
   cursor: pointer;
 }
 .container-div > div {
+  margin: 8px 90px;
   float: left;
-  margin: 20px 100px;
 }
 
 .container-div > :nth-child(1) > h1 {
-  margin-left: 200px;
+  margin-left: 100px;
 }
-
 .container-div > :nth-child(2) {
-  margin-left: 120px;
+  margin-left: 200px;
   margin-top: 80px;
 }
+.container-div > :nth-child(2) > :nth-child(1) {
+  font-size: 50px;
+  color: gray;
+  margin-bottom: 0px;
+}
+.container-div > :nth-child(2) > :nth-child(4) {
+  margin-bottom: 5px;
+}
+small {
+  margin-top: 10px;
+}
 
+.container-div > :nth-child(2) > :nth-child(6) > img {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.companies-list {
+  margin-top: 100px;
+}
+.companies-list > p {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.companies-list > img {
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+}
 .google-login {
   margin-left: 100px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .google-login > button > img {
@@ -88,14 +115,19 @@ body {
 }
 
 .forgot-password-text {
-  margin-left: 238px;
+  margin-left: 100px;
 }
 
-.forgot-password-text > a {
+.forgot-password-text > p {
+  font-size: 14px;
+  color: gray;
+}
+.forgot-password-text > p > a {
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
 }
-.forgot-password-text > a:hover {
+.forgot-password-text > p > a:hover {
   text-decoration: underline;
 }
 
@@ -130,7 +162,7 @@ body {
 }
 
 .all-right-reservs-div {
-  margin-left: 0px;
+  margin-left: 175px;
 }
 .all-right-reservs-div > p {
   margin-left: 20px;
