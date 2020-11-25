@@ -144,7 +144,6 @@ body {
 .container-middle{
     height: 1200px;
     width: 95%;
-    border: 1px solid black;
     margin: 2%;
 }
 
@@ -206,7 +205,61 @@ body {
     
 }
 
-.container-middle-box-link{
-    clear: both;
-    position: absolute;
+.get-it-all-container{
+    background-color:#64787e;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    margin-bottom: 100px;
+  }
+  
+  .get-it-all-container > h1{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .get-it-all-container > button {
+    border: 1px solid rgb(96, 96, 167);
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 10%;
+    width: 14%;
+    color: white;
+    background-color: #4eae34;
+    margin-left: 43%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .get-it-all-container > button:hover {
+      background-color: rgb(216, 178, 107);
+  }
+  
+  
+  .lower-container{
+      width: 100%;
+      height: 400px;
+      
+  }
+  .lower-container-box {
+      width: 24%;
+      
+      height: 390px;
+      margin-left: 12px;
+      float: left;
+  }
+
+  .lower-container-box > div > a{
+      color: #22ade3;
+      font-size: 18px;
+  }
+  .lower-container-box >div{
+    margin-top: 8px;
+  }
+
+  a {
+      text-decoration: none;
   }
