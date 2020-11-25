@@ -310,7 +310,6 @@ body {
 .lower-container-box {
   width: 24%;
   height: 390px;
-  /* margin-left: 20px; */
   float: left;
 }
 
@@ -335,7 +334,7 @@ body {
   bottom: 0;
   width: 103%;
   background-color: rgb(41, 39, 39);
-  /* margin-left: 0px; */
+  margin-left: 0px;
 }
 .top-footer {
   margin-left: 90px;
