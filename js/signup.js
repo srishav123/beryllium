@@ -10,7 +10,7 @@ function submitData(e){
    var inputValidation = validation(email, password)
     
     if(inputValidation){
-        window.location.replace("../html/homepage.html");
+        window.location.replace("../html/index.html");
     }
     else{
         alert("Please fill all required data correctly!")
