@@ -6,12 +6,12 @@ body {
   clear: both;
 }
 .logo-div {
-  margin: 20px 20px;
+  margin: 10px 20px;
   margin-bottom: 10px;
   cursor: pointer;
 }
 .container-div > div {
-  margin: 8px 90px;
+  margin: 8px 80px;
   float: left;
 }
 
@@ -19,8 +19,8 @@ body {
   margin-left: 100px;
 }
 .container-div > :nth-child(2) {
-  margin-left: 200px;
-  margin-top: 80px;
+  margin-left: 160px;
+  margin-top: 30px;
 }
 .container-div > :nth-child(2) > :nth-child(1) {
   font-size: 50px;
@@ -111,7 +111,7 @@ small {
 }
 
 #email {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .forgot-password-text {
@@ -136,7 +136,7 @@ small {
   height: 45px;
   width: 300px;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: rgb(63, 196, 63);
   color: white;
   font-size: 18px;
@@ -163,10 +163,12 @@ small {
 
 .all-right-reservs-div {
   margin-left: 175px;
+  margin-top: 0px;
 }
 .all-right-reservs-div > p {
   margin-left: 20px;
   font-size: 12px;
   float: left;
   color: rgb(131, 115, 115);
+  margin-top: 0px;
 }
