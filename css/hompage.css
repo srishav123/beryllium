@@ -449,6 +449,12 @@ h1 {
   background-color: blue;
 }
 
+.happy-clients-container-inner-box >button:hover{
+  background-color: rgb(96, 96, 167);
+  color: white;
+}
+
+
 .boost-container {
   background-color: rgb(43, 43, 105);
   height: 200px;
@@ -688,4 +694,3 @@ select {
   margin-top: 30px;
   color: gray;
 }
-/* <!-- Works Finished by Vishal --> */
