@@ -1,0 +1,212 @@
+/* Top navigation bar */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .clear-all {
+    clear: both;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: fit-content;
+    cursor: pointer;
+  }
+  
+  .logo-container {
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    height: fit-content;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  
+  .topnav-left-side {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav-left-side a {
+    float: left;
+    color: #f2f2f2;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav-left-side a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .topnav-left-side > :nth-child(6) {
+    float: right;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+  .topnav-left-side > :nth-child(7) {
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+  }
+  .topnav-left-side > :nth-child(8) {
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 2px;
+  }
+  .login-button {
+    border: 1px solid white;
+    background-color: #000;
+    color: white;
+    padding: 2px;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 3px;
+  }
+  .signup-button {
+    border: 1px solid #000;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+/* Top navigation css ends */
+
+/* features page css starts */
+
+.top-btn {
+    margin-top: 40px;
+    margin-left: 5%;
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-top{
+    width: 85%;
+    height: 80vh;
+    margin-top: 60px;
+    padding-left: 5%;
+}
+    
+
+.container-top-left{
+    width: 45%;
+    height: 80vh;
+    float: left;
+}
+.container-top-left > h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+.container-top-left > div >p {
+    font-size: 20px;
+}
+.container-top-left > button {
+    height: 60px;
+    width: 45%;
+    background-color: rgb(49, 160, 49);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.container-top-left > button:hover {
+    background-color: yellowgreen;
+}
+
+.container-top-right{
+    width: 45%;
+    height: 80vh;
+    float: left;
+    margin-left: 50px;
+}
+
+.img-top{
+    height: 400px;
+    width: 100%;
+    
+}
+
+.container-middle{
+    height: 1200px;
+    width: 95%;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.container-middle > h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-middle-tag {
+    display: flex;
+    margin-left: 5%;
+}
+.container-middle-tag > button{
+    margin-left: 4%;
+    margin-right: 2%;
+    font-size: 22px;
+    color: #22ade3;
+    background-color: white;
+    border: 0px;
+}
+
+.container-middle-tag > button:hover {
+    border: 2px solid #22ade3;
+}
+
+.container-middle-box {
+    height: 240px;
+    width: 26%;
+    float: left;
+    border: 1px solid rgb(231, 219, 219);
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.container-middle-box-title{
+    margin-top: 7%;
+    margin-left: 9%;
+    background-color: #edf2f5;
+    height: 30px;
+    width: 25%;
+    text-align: center;
+    padding: 1px;
+    float: left;
+    border-radius: 5px;
+    line-height: 30px;
+    color: black;
+}
+
+.container-middle-box-top{
+    height: 50px;
+    width: 99%;
+    display: flex;
+}
+.container-middle-box >div >p{
+    font-size: 18px;
+    color: rgb(136, 103, 103);
+    
+}
+
+.container-middle-box-link{
+    clear: both;
+    position: absolute;
+  }
