@@ -1,7 +1,5 @@
 # semRush website clone
 
-Collaborators: Shubham Rishav, Vishal Kumar
-
 ## Description
 
 This website is a clone of SEMrush.com, you can navigate through it and enjoy the UI and other features.
