@@ -13,7 +13,7 @@ You must see the pricing page, features page and About Us Page. As it is a clone
 [link](./images/homepage1.png)
 [link](./images/homepage2.png)
 [link](./images/features-page.png)
-[link](./images/pricingpage.png)
+[link](./images/pricingpage1.png)
 
 ## Credits:
 
