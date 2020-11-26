@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-  background-color: rgb(214, 221, 224);
+  background-color: rgb(227, 243, 250);
 }
 .clear-all {
   clear: both;
@@ -159,7 +159,7 @@ body {
 /* Pricing Page main Content Start here */
 
 .container-div {
-  background-color: rgb(214, 221, 224);
+  background-color: rgb(229, 240, 245);
 }
 
 .plans-pricing {
@@ -318,11 +318,11 @@ small {
   font-size: 25px;
   font-style: normal;
 }
-.customer-solutions-div > :nth-child(2) {
-  margin-left: 30px;
+.customer-solutions-div > :nth-child(2) > a > button {
+  margin-left: 40px;
   margin-top: 90px;
 }
-.customer-solutions-div > :nth-child(2) > button {
+.customer-solutions-div > :nth-child(2) > a > button {
   height: 40px;
   width: 110px;
   color: black;
@@ -334,7 +334,7 @@ small {
   cursor: pointer;
 }
 
-.customer-solutions-div > :nth-child(2) > button:hover {
+.customer-solutions-div > :nth-child(2) > a > button:hover {
   background-color: rgb(100, 183, 216);
   color: blue;
 }
@@ -653,6 +653,11 @@ select {
 .second-bottom-footer > :nth-child(3) > :nth-child(1) {
   font-size: 15px;
   color: white;
+}
+.second-bottom-footer > :nth-child(2) > :nth-child(5) {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
 }
 
 .second-bottom-footer > :nth-child(4) > p {
