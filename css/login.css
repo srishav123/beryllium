@@ -138,3 +138,11 @@ body {
   float: left;
   color: rgb(131, 115, 115);
 }
+
+.right-side-image {
+  position: relative;
+  width: 500px;
+  display: block;
+
+  z-index: 1;
+}
