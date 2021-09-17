@@ -1,6 +1,6 @@
 # Team beryllium
 
-#Titans Unit 1 Build Week Project
+## Titans Unit 1 Build Week Project
 ### semrush.com Clone
 ---
 Group Name: beryllium
